@@ -1,11 +1,14 @@
+# SPDX-FileCopyrightText: 2020 - Sebastian Ritter <bastie@users.noreply.github.com>
+# SPDX-License-Identifier: Apache-2.0
+
 import setuptools
 
-with open("../README.md", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="VampireAPI", # Replace with your own username
-    version="0.0.1",
+    name="VampireAPI", 
+    version="0.0.3",
     author="Sͬeͥbͭaͭsͤtͬian",
     author_email="bastie@users.noreply.github.com",
     description="Just Another Vampire Api 4 Python",
