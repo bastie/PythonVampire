@@ -2,6 +2,7 @@
 
   As same as bloodhound let us reimplement the Java API.
   This is similar to long time ago [JavAPI](https://github.com/RealBastie/JavApi) project.
+  Take a look to [GitHub](https://github.com/bastie/PythonVampire).
   
   ## The Idea ##
   Too many good programming languages are looking for developers hype. Maybe You 

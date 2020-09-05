@@ -3,7 +3,7 @@
 
 '''
 
-  ## ***J***ust ***a*** ***v***ampire ***A***PI ##
+  ## *J*ust *a* *v*ampire *A*PI ##
 
   As same as bloodhound let us reimplement the Java API.
   This is similar to long time ago [JavAPI](https://github.com/RealBastie/JavApi) project.
@@ -35,5 +35,9 @@
   ### API description ###
   If a class and method is defined, take a look to Java API documentation.
      
+
+  ### see also ###
+  * [GitHub](https://github.com/bastie/PythonVampire)
+  * [PyPI](https://pypi.org/project/VampireAPI/)
 
 '''

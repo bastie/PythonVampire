@@ -1,0 +1,6 @@
+# Requirements for development
+wheel
+setuptools
+twine
+
+pdoc3
