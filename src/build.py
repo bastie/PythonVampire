@@ -10,4 +10,7 @@
 # $ rm -Rf VampireAPI.egg-info dist build 
 # python setup.py sdist bdist_wheel    
 # python3 -m twine check dist/*
-# python3 -m twine upload dist/*     
+# python3 -m twine upload dist/*    
+# git add .
+# git commit
+# git push 
