@@ -1,4 +1,4 @@
-# ***J***ust ***a*** ***v***ampire ***A***pi #
+# ***J***ust ***a***nother ***v***ampire ***A***pi #
 
   As same as bloodhound let us reimplement the Java API.
   This is similar to long time ago [JavAPI](https://github.com/RealBastie/JavApi) project.
