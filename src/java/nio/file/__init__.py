@@ -3,7 +3,7 @@
 
 '''
 
-  The blood of java.lang package.
+  The blood of java.nio.nio.nio.file package.
 
   full implemented:
   
@@ -11,7 +11,10 @@
   
   parts implemented:
     
-    * java.lang.System
+    * java.nio.nio.nio.file.Files
+    * java.nio.nio.nio.file.FileSystem
+    * java.nio.nio.nio.file.FileSystems
+    * java.nio.nio.nio.file.Path
   
   non implemented:
 

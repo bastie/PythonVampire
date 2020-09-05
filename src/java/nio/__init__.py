@@ -3,7 +3,7 @@
 
 '''
 
-  The blood of java.lang package.
+  The blood of java.nio package.
 
   full implemented:
   
@@ -11,7 +11,7 @@
   
   parts implemented:
     
-    * java.lang.System
+    * none
   
   non implemented:
 
