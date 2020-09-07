@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.com/bastie/PythonVampire.svg?branch=main)](https://travis-ci.com/bastie/PythonVampire)
-
----
-
 # *J*ust *a*nother *v*ampire *A*pi Project #
+
+[![Travis Build Status](https://travis-ci.com/bastie/PythonVampire.svg?branch=main)](https://travis-ci.com/bastie/PythonVampire)
+![Python package](https://github.com/bastie/PythonVampire/workflows/Python%20package/badge.svg)
+
 
   As same as bloodhound let us reimplement the Java API.
   This is similar to long time ago [JavAPI](https://github.com/RealBastie/JavApi) project.
