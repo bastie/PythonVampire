@@ -8,9 +8,10 @@ Created on 01.09.2020
 '''
 from builtins import staticmethod, str
 from java.nio.file.Path import Path
+from java.lang import Object
 import codecs
 
-class Files(object):
+class Files(Object):
     '''
     classdocs
     '''

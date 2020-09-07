@@ -8,9 +8,10 @@ Created on 01.09.2020
 '''
 from builtins import staticmethod
 from java.nio.file import FileSystem
+from java.lang import Object
 from java.nio.file.FileSystem import __vampire_DefaulFileSystem__
 
-class FileSystems(object):
+class FileSystems(Object):
     '''
     classdocs
     '''

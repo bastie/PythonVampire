@@ -7,8 +7,9 @@ Created on 01.09.2020
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
 from os.path import sys
+from java.lang import Object
 
-class System(object):
+class System(Object):
     '''
     classdocs
     '''

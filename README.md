@@ -1,7 +1,9 @@
 # *J*ust *a*nother *v*ampire *A*pi Project #
 
-[![Travis Build Status](https://travis-ci.com/bastie/PythonVampire.svg?branch=main)](https://travis-ci.com/bastie/PythonVampire)
-![Python package](https://github.com/bastie/PythonVampire/workflows/Python%20package/badge.svg)
+Build status: [![Travis Build Status](https://travis-ci.com/bastie/PythonVampire.svg?branch=main)](https://travis-ci.com/bastie/PythonVampire) ![Python package](https://github.com/bastie/PythonVampire/workflows/Python%20package/badge.svg)
+PyPI status: [![pypi version](https://img.shields.io/pypi/v/VampireApi.svg)](https://pypi.python.org/pypi/VampireApi)
+[![# of downloads](https://img.shields.io/pypi/dw/changes.svg)](https://pypi.python.org/pypi/VampireApi)
+
 
 
   As same as bloodhound let us reimplement the Java API.

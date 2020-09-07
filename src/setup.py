@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="VampireAPI", 
-    version="0.1.0", # needed for POC NLP so step to minor version
+    version="0.2.0", # Major = not compatible, version = compatible extends, patch = compatible bugfix
     author="Sͬeͥbͭaͭsͤtͬian",
     author_email="bastie@users.noreply.github.com",
     description="Just Another Vampire Api 4 Python",

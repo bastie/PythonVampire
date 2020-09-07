@@ -2,16 +2,16 @@
 # SPDX-License-Identifier: Apache-2.0
 
 '''
-Created on 01.09.2020
+Created on 07.09.2020
 
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
 
-from java.lang import RuntimeException
+from java.lang.Exception import JException
 
-class UnsupportedOperationException(RuntimeException, NotImplementedError):
+class IOException(JException, IOError):
     '''
-    classdocs
+    see Javadoc
     '''
 
 

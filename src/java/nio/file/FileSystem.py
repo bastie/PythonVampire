@@ -10,11 +10,12 @@ Created on 01.09.2020
 from builtins import str
 from abc import ABC
 from java.lang.UnsupportedOperationException import UnsupportedOperationException
+from java.lang import Object
 from java.nio.file.Path import Path
 
-class FileSystem(ABC):
+class FileSystem(Object, ABC):
     '''
-    classdocs
+    see Javadoc
     '''
     
     def __init__(self):
