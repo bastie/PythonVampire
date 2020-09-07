@@ -3,11 +3,7 @@ Upstream-Name: VampireAPI
 Upstream-Contact: Sebastian Ritter <bastie@users.noreply.github.com>
 Source: https://github.com/bastie/PythonVampire
 
-Files: .gitignore
-Copyright: 2020 Sebastian Ritter <bastie@users.noreply.github.com>
-License: Apache-2.0
-
-Files: CODEME.md README.md src/README.md
+Files: .gitignore .travis.yml
 Copyright: 2020 Sebastian Ritter <bastie@users.noreply.github.com>
 License: Apache-2.0
 
