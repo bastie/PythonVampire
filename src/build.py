@@ -15,6 +15,9 @@
 # clear 
 # $ rm -Rf VampireAPI.egg-info dist build ../docs
 #
+# check license
+# python3 -m reuse lint
+#
 # build module
 # python3 setup.py sdist bdist_wheel    
 # python3 -m twine check dist/*
