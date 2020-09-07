@@ -1,0 +1,11 @@
+language: python
+python:
+  - "nightly"
+# command to install dependencies
+install:
+  - pip install -r requirements.txt
+  - pip install -r requirements-devel-txt
+# command to run tests
+script:
+  - cd src
+  - python build.py
