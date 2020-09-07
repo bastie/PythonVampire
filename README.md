@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.com/bastie/PythonVampire.svg?branch=main)](https://travis-ci.com/bastie/PythonVampire)
+
+---
+
 # *J*ust *a*nother *v*ampire *A*pi Project #
 
   As same as bloodhound let us reimplement the Java API.
