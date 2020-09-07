@@ -4,14 +4,17 @@
 '''
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
-
-
 # pip3 install -U --requirement requirements.txt 
 # pip3 install -U --requirement requirements-devel.txt 
 
+import compileall
 
 # if we are in src directory
 #
+
+# check py syntax
+compileall.compile_dir(".")
+
 # clear 
 # $ rm -Rf VampireAPI.egg-info dist build ../docs
 #
