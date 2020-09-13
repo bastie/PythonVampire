@@ -2,17 +2,16 @@
 # SPDX-License-Identifier: Apache-2.0
 
 '''
-Created on 07.09.2020
+Created on 13.09.2020
 
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
 
-from java.lang.Exception import JException
-from java.lang import Throwable
+from java.lang import RuntimeException, Throwable
 
-class RuntimeException (JException):
+class IllegalArgumementException (RuntimeException):
     '''
-    see javadoc
+    classdocs
     '''
 
 
@@ -21,5 +20,4 @@ class RuntimeException (JException):
         Constructor
         '''
         super().__init__(message, cause)
-
         

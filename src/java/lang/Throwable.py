@@ -15,8 +15,15 @@ class Throwable(Object, Exception):
     '''
 
 
-    def __init__(self, params):
+    def __init__(self, message = "", cause : 'Throwable' = None):
         '''
         Constructor
         '''
+        self.problemMessage = message
+        self.problemCause = cause
         
+    def getMessage (self) -> str:
+        return self.problemMessage
+    
+    def getCause (self) -> 'Throwable':
+        return self.problemCause

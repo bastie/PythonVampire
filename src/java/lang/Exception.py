@@ -16,8 +16,8 @@ class JException(Throwable):
     '''
 
 
-    def __init__(self, params):
+    def __init__(self, message = "", cause : Throwable = None):
         '''
         Constructor
         '''
-        
+        super().__init__(message, cause)
