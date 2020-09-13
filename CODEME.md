@@ -12,7 +12,7 @@ Coffee programmers take a look to [OpenJDK](https://openjdk.java.net).
 state: working by great people
 
 ## .net Port ##
-state: waiting for great people or pince to kiss the sleeping project to wake up
+state: waiting for great people or prince to kiss the sleeping project to wake up
 
 ## Python port ##
 state: active to implement some other projects
