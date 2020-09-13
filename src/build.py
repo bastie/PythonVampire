@@ -22,7 +22,8 @@ compileall.compile_dir(".")
 # python3 -m reuse lint
 #
 # check code problems and format
-# python3 -m flake8
+# but ignore first line, because SPDX information are too long
+# python3 -m flake8 | grep -v ":1:80: E501"
 #
 # build module
 # python3 setup.py sdist bdist_wheel
