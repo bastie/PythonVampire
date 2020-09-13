@@ -8,7 +8,7 @@ Created on 07.09.2020
 '''
 
 from java.lang.Exception import JException
-from java.lang import import Throwable
+from java.lang import Throwable
 
 class IOException(JException, IOError):
     '''
