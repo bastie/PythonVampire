@@ -9,21 +9,21 @@ Created on 07.09.2020
 
 from java.lang import Object
 
+
 class Throwable(Object, Exception):
     '''
     see Javadoc
     '''
 
-
-    def __init__(self, message = "", cause : 'Throwable' = None):
+    def __init__(self, message="", cause: 'Throwable' = None):
         '''
         Constructor
         '''
         self.problemMessage = message
         self.problemCause = cause
-        
-    def getMessage (self) -> str:
+
+    def getMessage(self) -> str:
         return self.problemMessage
-    
-    def getCause (self) -> 'Throwable':
+
+    def getCause(self) -> 'Throwable':
         return self.problemCause

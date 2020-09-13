@@ -9,13 +9,13 @@ Created on 01.09.2020
 
 from java.lang import RuntimeException, Throwable
 
+
 class UnsupportedOperationException(RuntimeException, NotImplementedError):
     '''
     see javadoc
     '''
 
-
-    def __init__(self, message = "", cause : Throwable = None):
+    def __init__(self, message="", cause: Throwable = None):
         '''
         Constructor
         '''

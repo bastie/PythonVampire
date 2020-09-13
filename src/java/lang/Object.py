@@ -7,14 +7,13 @@ Created on 07.09.2020
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
 
+
 class Object(object):
     '''
     see Javadoc
     '''
 
-
     def __init__(self, params):
         '''
         Constructor
         '''
-        

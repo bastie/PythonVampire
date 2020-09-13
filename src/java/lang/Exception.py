@@ -9,14 +9,14 @@ Created on 07.09.2020
 
 from java.lang import Throwable
 
+
 class JException(Throwable):
     '''
     Because Python knows base class Exception this class is called JException.
     see Javadoc
     '''
 
-
-    def __init__(self, message = "", cause : Throwable = None):
+    def __init__(self, message="", cause: Throwable = None):
         '''
         Constructor
         '''

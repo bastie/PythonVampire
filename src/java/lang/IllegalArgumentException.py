@@ -9,15 +9,14 @@ Created on 13.09.2020
 
 from java.lang import RuntimeException, Throwable
 
+
 class IllegalArgumementException (RuntimeException):
     '''
     classdocs
     '''
 
-
-    def __init__(self, message = "", cause : Throwable = None):
+    def __init__(self, message="", cause: Throwable = None):
         '''
         Constructor
         '''
         super().__init__(message, cause)
-        

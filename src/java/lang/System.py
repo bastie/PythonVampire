@@ -9,17 +9,17 @@ Created on 01.09.2020
 from os.path import sys
 from java.lang import Object
 
+
 class System(Object):
     '''
     classdocs
     '''
 
-
     def __init__(self, params):
         '''
         Constructor
         '''
-        
+
     @classmethod
-    def exit (self, status : int):
+    def exit(self, status: int):
         sys.exit(status)

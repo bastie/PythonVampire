@@ -11,17 +11,17 @@ from java.nio.file import FileSystem
 from java.lang import Object
 from java.nio.file.FileSystem import __vampire_DefaulFileSystem__
 
+
 class FileSystems(Object):
     '''
     classdocs
     '''
 
-
     def __init__(self):
         '''
         Constructor
         '''
-        
+
     @staticmethod
-    def getDefault () -> FileSystem:
+    def getDefault() -> FileSystem:
         return __vampire_DefaulFileSystem__()

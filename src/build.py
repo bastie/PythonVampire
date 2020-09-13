@@ -4,8 +4,8 @@
 '''
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
-# pip3 install -U --requirement requirements.txt 
-# pip3 install -U --requirement requirements-devel.txt 
+# pip3 install -U --requirement requirements.txt
+# pip3 install -U --requirement requirements-devel.txt
 
 import compileall
 
@@ -15,14 +15,17 @@ import compileall
 # check py syntax
 compileall.compile_dir(".")
 
-# clear 
+# clear
 # $ rm -Rf VampireAPI.egg-info dist build ../docs
 #
 # check license
 # python3 -m reuse lint
 #
+# check code problems and format
+# python3 -m flake8
+#
 # build module
-# python3 setup.py sdist bdist_wheel    
+# python3 setup.py sdist bdist_wheel
 # python3 -m twine check dist/*
 # python3 -m twine upload dist/*
 #
@@ -30,8 +33,8 @@ compileall.compile_dir(".")
 # python3 -m pdoc --html --output-dir ../docs/_build/html java
 #
 # add all
-#    
+#
 # git add ../.
 # git commit
-# git push 
+# git push
 #

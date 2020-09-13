@@ -7,8 +7,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="VampireAPI", 
-    version="0.2.0", # Major = not compatible, version = compatible extends, patch = compatible bugfix
+    name="VampireAPI",
+    # major = not compatible,
+    # minor = compatible extends,
+    # patch = compatible bugfix
+    version="0.2.0",
     author="Sͬeͥbͭaͭsͤtͬian",
     author_email="bastie@users.noreply.github.com",
     description="Just Another Vampire Api 4 Python",
