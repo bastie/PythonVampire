@@ -7,7 +7,7 @@ Created on 01.09.2020
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
 from os.path import sys
-from java.lang import Object
+from java.lang.Object import Object
 
 
 class System(Object):
@@ -15,7 +15,7 @@ class System(Object):
     classdocs
     '''
 
-    def __init__(self, params):
+    def __init__(self):
         '''
         Constructor
         '''

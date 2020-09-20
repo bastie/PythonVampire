@@ -9,8 +9,10 @@ Created on 01.09.2020
 
 from builtins import str
 from abc import ABC
-from java.lang import Object, UnsupportedOperationException
-from java.nio.file import Path
+from java.lang.Object import Object
+from java.lang.UnsupportedOperationException \
+     import UnsupportedOperationException
+from java.nio.file.Path import Path
 
 
 class FileSystem(Object, ABC):

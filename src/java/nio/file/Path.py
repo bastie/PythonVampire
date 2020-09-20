@@ -8,9 +8,10 @@ Created on 01.09.2020
 '''
 from builtins import str
 from java.io.File import File
+from java.lang.Object import Object
 
 
-class Path(object):
+class Path(Object):
     '''
     classdocs
     '''

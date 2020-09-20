@@ -8,7 +8,7 @@ Created on 01.09.2020
 '''
 from builtins import staticmethod, str
 from java.nio.file.Path import Path
-from java.lang import Object
+from java.lang.Object import Object
 import codecs
 
 
@@ -17,7 +17,7 @@ class Files(Object):
     classdocs
     '''
 
-    def __init__(self, params):
+    def __init__(self):
         '''
         Constructor
         '''

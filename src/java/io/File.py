@@ -7,9 +7,10 @@ Created on 01.09.2020
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
 import os
-from java.lang import Object
+from java.lang.Object import Object
+from java.lang.UnsupportedOperationException \
+     import UnsupportedOperationException
 from builtins import str
-from java.lang import UnsupportedOperationException
 
 
 class File(Object):

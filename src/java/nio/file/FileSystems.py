@@ -7,8 +7,8 @@ Created on 01.09.2020
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
 from builtins import staticmethod
-from java.nio.file import FileSystem
-from java.lang import Object
+from java.nio.file.FileSystem import FileSystem
+from java.lang.Object import Object
 from java.nio.file.FileSystem import __vampire_DefaulFileSystem__
 
 
