@@ -7,7 +7,8 @@ Created on 01.09.2020
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
 
-from java.lang import RuntimeException, Throwable
+from java.lang.RuntimeException import RuntimeException
+from java.lang.Throwable import Throwable
 
 
 class UnsupportedOperationException(RuntimeException, NotImplementedError):

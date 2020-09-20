@@ -7,10 +7,11 @@ Created on 13.09.2020
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
 
-from java.lang import RuntimeException, Throwable
+from java.lang.RuntimeException import RuntimeException
+from java.lang.Throwable import Throwable
 
 
-class IllegalArgumementException (RuntimeException):
+class IllegalArgumentException (RuntimeException):
     '''
     classdocs
     '''

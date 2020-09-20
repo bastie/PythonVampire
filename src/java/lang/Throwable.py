@@ -7,7 +7,7 @@ Created on 07.09.2020
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
 
-from java.lang import Object
+from java.lang.Object import Object
 
 
 class Throwable(Object, Exception):

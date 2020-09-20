@@ -17,3 +17,6 @@ class Object(object):
         '''
         Constructor
         '''
+
+    def toString (self) -> str:
+        return (type(self))

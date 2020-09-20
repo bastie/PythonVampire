@@ -7,7 +7,7 @@ Created on 07.09.2020
 @author: Sͬeͥbͭaͭsͤtͬian
 '''
 
-from java.lang import Throwable
+from java.lang.Throwable import Throwable
 
 
 class JException(Throwable):
