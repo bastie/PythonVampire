@@ -17,26 +17,58 @@
 	    <link rel="stylesheet" href="./environment/darknight.css"> 	
 	    
 	    <title>Vampire API</title>
+	    
+	    <script>
+	      function go(target) {
+	          if ("python" == target) {
+			        document.getElementById('content').setAttribute('src', './python.html');
+	        	    document.getElementById ('content-container').style.visibility = "visible";
+		          }
+	          if ("dotnet" == target){
+		    	    document.getElementById('content').setAttribute('src', './dotnet.html');
+	          	    document.getElementById ('content-container').style.visibility = "visible";
+		          }
+	          if ("java" == target){
+		    	    document.getElementById('content').setAttribute('src', './java.html');
+	          	    document.getElementById ('content-container').style.visibility = "visible";
+		          }
+	          if ("other" == target){
+		    	    document.getElementById('content').setAttribute('src', './other.html');
+	          	    document.getElementById ('content-container').style.visibility = "visible";
+		          }
+	    	  if ("root" == target) {
+		    	    document.getElementById('content-container').style.visibility = "hidden";
+	    	  }
+	      } 
+	    </script>
 	</head>
 	<body>
+	    <div id="content-container">
+	      <iframe id="content" src="python.html">
+	      </iframe>
+	    </div>
 		<div id="dock-container">
 		 <div id="dock">
 		   <ul>
 		      <li>
+		        <span>Vampire API</span>
+		        <a href="#"><img src="./environment/bat-1106219.png" alt="Vampire" onclick="go('root')"/></a>
+		      </li>
+		      <li>
 		        <span>Python Vampire</span>
-		        <a href="#"><img src="./environment/snake-3254415.png" alt="Python VampireApi"/></a>
+		        <a href="#"><img src="./environment/snake-3254415.png" alt="Python VampireApi" onclick="go('python')"/></a>
 		      </li>
 		      <li>
 		        <span>.net Vampire</span>
-		        <a href="#"><img src="./environment/spider-2861825.png" alt=".net VampireApi"/></a>
+		        <a href="#"><img src="./environment/spider-2861825.png" alt=".net VampireApi"  onclick="go('dotnet')"/></a>
 		      </li>
 		      <li>
 		         <span>Java Vampire</span>
-		         <a href="#"><img src="./environment/coffee-309981.png" alt="Java VampireApi"/></a>
+		         <a href="#"><img src="./environment/coffee-309981.png" alt="Java VampireApi" onclick="go('java')"/></a>
 		      </li>
 		      <li>
 		         <span>other moscito</span>
-		         <a href="#"><img src="./environment/animal-2029651.png" alt="othe projects"/></a>
+		         <a href="#"><img src="./environment/animal-2029651.png" alt="other projects"  onclick="go('other')"/></a>
 		      </li>
 		   </ul>
 		 </div>
@@ -50,5 +82,6 @@
 	  spider-2861825.png: Bild von <a href="https://pixabay.com/de/users/alexas_fotos-686414/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2861825">Alexas_Fotos</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2861825">Pixabay</a>
 	  coffee-309981.png: Bild von <a href="https://pixabay.com/de/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=309981">Clker-Free-Vector-Images</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=309981">Pixabay</a>
 	  animal-2029651.png: Bild von <a href="https://pixabay.com/de/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2029651">OpenClipart-Vectors</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2029651">Pixabay</a>
+	  bat-1106219.png: Bild von <a href="https://pixabay.com/de/users/gwendoline63-212704/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1106219">gwendoline63</a> auf <a href="https://pixabay.com/de/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1106219">Pixabay</a>
 	 -->
 </html>
