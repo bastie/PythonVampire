@@ -11,7 +11,7 @@ setuptools.setup(
     # major = not compatible,
     # minor = compatible extends,
     # patch = compatible bugfix
-    version="0.3.0",
+    version="0.3.1",
     author="Sͬeͥbͭaͭsͤtͬian",
     author_email="bastie@users.noreply.github.com",
     description="Just Another Vampire Api 4 Python",

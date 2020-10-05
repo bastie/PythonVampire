@@ -66,7 +66,7 @@ class System(Object):
             classpath = ""
             for file in sys.path:
                 if len(file) > 0:
-                    classpath += file
+                    classpath += file \
                     + System.systemProperties.getProperty("path.separator")
             if 0 < len(classpath):
                 classpath = classpath[:-1]
