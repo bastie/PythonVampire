@@ -9,11 +9,15 @@ Created on 20.09.2020
 import unittest
 from java.lang.Exception import JException
 from java.lang.IllegalArgumentException import IllegalArgumentException
+from java.lang.IllegalCallerException import IllegalCallerException
 from java.lang.RuntimeException import RuntimeException
 from java.lang.Throwable import Throwable
 from java.lang.UnsupportedOperationException \
      import UnsupportedOperationException
 from java.io.IOException import IOException
+
+from java.python.lang.IllegalInstantiationException \
+     import IllegalInstantiationException
 
 
 class TestExceptions(unittest.TestCase):
@@ -32,7 +36,16 @@ class TestExceptions(unittest.TestCase):
                          "Message isn't store in base class" +
                          " java.lang.Throwable")
 
-    def testInstantition(self):
+    def testExtendedInstantition(self):
+        instance = IllegalInstantiationException()
+        self.assertEqual("private constructor call",
+                         instance.getMessage(),
+                         "Unexpected message")
+        IllegalInstantiationException(message="msg")
+        IllegalInstantiationException(cause=Throwable())
+        IllegalInstantiationException(message="msg", cause=Throwable())
+
+    def testJavaInstantition(self):
         JException()
         JException(message="msg")
         JException(cause=Throwable())
@@ -42,6 +55,11 @@ class TestExceptions(unittest.TestCase):
         IllegalArgumentException(message="msg")
         IllegalArgumentException(cause=Throwable())
         IllegalArgumentException(message="msg", cause=Throwable())
+
+        IllegalCallerException()
+        IllegalCallerException(message="msg")
+        IllegalCallerException(cause=Throwable())
+        IllegalCallerException(message="msg", cause=Throwable())
 
         IOException()
         IOException(message="msg")

@@ -9,14 +9,17 @@ Created on 20.09.2020
 import unittest
 
 from java.io.File import File
+from java.io.PrintStream import PrintStream
 from java.lang.Object import Object
-from java.lang.System import System
 from java.nio.file.Files import Files
 from java.nio.file.FileSystem import FileSystem
 from java.nio.file.FileSystems import FileSystems
 from java.nio.file.Path import Path
 from java.lang.UnsupportedOperationException \
      import UnsupportedOperationException
+
+from java.python.lang.ConsoleOutputPrintStream \
+     import ConsoleOutputPrintStream
 
 
 class TestUntested(unittest.TestCase):
@@ -34,6 +37,7 @@ class TestUntested(unittest.TestCase):
         '''
           test some semantic Python runtime check
         '''
+        ConsoleOutputPrintStream()
         File(".")
         try:
             File()
@@ -48,7 +52,8 @@ class TestUntested(unittest.TestCase):
         except TypeError:
             pass
         Path("")
-        System()
+        PrintStream()
+
         pass
 
 
